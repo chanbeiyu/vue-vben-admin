@@ -1,12 +1,16 @@
 import type { RouteRecordRaw } from 'vue-router';
 
 import {
+  VBEN_ANT_PREVIEW_URL,
+  VBEN_ARCO_PREVIEW_URL,
   VBEN_DOC_URL,
   VBEN_ELE_PREVIEW_URL,
   VBEN_GITHUB_URL,
   VBEN_LOGO_URL,
   VBEN_NAIVE_PREVIEW_URL,
+  VBEN_VUETIFY_PREVIEW_URL,
 } from '@vben/constants';
+import { SvgArcoLogoIcon } from '@vben/icons';
 
 import { BasicLayout, IFrameView } from '#/layouts';
 import { $t } from '#/locales';
@@ -53,14 +57,14 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        name: 'VbenNaive',
-        path: '/vben-admin/naive',
+        name: 'VbenAntd',
+        path: '/vben-admin/antd',
         component: IFrameView,
         meta: {
           badgeType: 'dot',
-          icon: 'logos:naiveui',
-          link: VBEN_NAIVE_PREVIEW_URL,
-          title: $t('demos.vben.naive-ui'),
+          icon: 'logos:ant-design',
+          link: VBEN_ANT_PREVIEW_URL,
+          title: $t('demos.vben.antdv'),
         },
       },
       {
@@ -72,6 +76,39 @@ const routes: RouteRecordRaw[] = [
           icon: 'logos:element',
           link: VBEN_ELE_PREVIEW_URL,
           title: $t('demos.vben.element-plus'),
+        },
+      },
+      {
+        name: 'VbenNaive',
+        path: '/vben-admin/naive',
+        component: IFrameView,
+        meta: {
+          badgeType: 'dot',
+          icon: 'logos:naiveui',
+          link: VBEN_NAIVE_PREVIEW_URL,
+          title: $t('demos.vben.naive-ui'),
+        },
+      },
+      {
+        name: 'VbenArcoDesign',
+        path: '/vben-admin/arco',
+        component: IFrameView,
+        meta: {
+          badgeType: 'dot',
+          icon: SvgArcoLogoIcon,
+          link: VBEN_ARCO_PREVIEW_URL,
+          title: $t('demos.vben.arco'),
+        },
+      },
+      {
+        name: 'VbenVuetify',
+        path: '/vben-admin/vuetify',
+        component: IFrameView,
+        meta: {
+          badgeType: 'dot',
+          icon: 'logos:vuetifyjs',
+          link: VBEN_VUETIFY_PREVIEW_URL,
+          title: $t('demos.vben.vuetify'),
         },
       },
     ],

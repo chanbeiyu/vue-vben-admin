@@ -7,6 +7,8 @@
     "document": "Document",
     "antdv": "Ant Design Vue Version",
     "naive-ui": "Naive UI Version",
-    "element-plus": "Element Plus Version"
+    "element-plus": "Element Plus Version",
+    "arco": "Arco Design Version",
+    "vuetify": "Vuetify Version"
   }
 }

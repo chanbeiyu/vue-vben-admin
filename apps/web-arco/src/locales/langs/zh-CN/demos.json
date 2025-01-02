@@ -8,7 +8,9 @@
     "about": "关于",
     "document": "文档",
     "antdv": "Ant Design Vue 版本",
-    "arco-ui": "Arco UI 版本",
-    "element-plus": "Element Plus 版本"
+    "naive-ui": "Naive UI 版本",
+    "element-plus": "Element Plus 版本",
+    "arco": "Arco Design 版本",
+    "vuetify": "Vuetify 版本"
   }
 }
