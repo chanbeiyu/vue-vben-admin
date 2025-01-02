@@ -31,9 +31,12 @@ catalog:
   '@intlify/unplugin-vue-i18n': ^6.0.1
   '@jspm/generator': ^2.4.1
   '@manypkg/get-packages': ^2.2.2
+  '@mdi/font': ^7.4.47
   '@nolebase/vitepress-plugin-git-changelog': ^2.11.1
   '@playwright/test': ^1.49.1
   '@pnpm/workspace.read-manifest': ^1000.0.0
+  '@quasar/extras': ^1.16.15
+  '@quasar/vite-plugin': ^1.8.1
   '@stylistic/stylelint-plugin': ^3.1.1
   '@tailwindcss/nesting': 0.0.0-insiders.565cd3e
   '@tailwindcss/typography': ^0.5.15
@@ -136,6 +139,7 @@ catalog:
   prettier: ^3.4.2
   prettier-plugin-tailwindcss: ^0.6.9
   publint: ^0.2.12
+  quasar: ^2.17.5
   qrcode: ^1.5.4
   radix-vue: ^1.9.11
   resolve.exports: ^2.0.3
@@ -143,6 +147,7 @@ catalog:
   rollup: ^4.28.1
   rollup-plugin-visualizer: ^5.12.0
   sass: 1.80.6
+  sass-embedded: ^1.83.0
   sortablejs: ^1.15.6
   stylelint: ^16.11.0
   stylelint-config-recess-order: ^5.1.1
@@ -179,6 +184,10 @@ catalog:
   vue-tsc: ^2.1.10
   vxe-pc-ui: ^4.3.27
   vxe-table: ^4.9.23
+  vuetify: ^3.7.6
   watermark-js-plus: ^1.5.7
   zod: ^3.24.1
   zod-defaults: ^0.1.3
+
+
+

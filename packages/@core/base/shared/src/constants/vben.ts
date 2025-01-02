@@ -24,3 +24,8 @@ export const VBEN_ELE_PREVIEW_URL = 'https://ele.vben.pro';
 export const VBEN_NAIVE_PREVIEW_URL = 'https://naive.vben.pro';
 
 export const VBEN_ANT_PREVIEW_URL = 'https://ant.vben.pro';
+
+export const VBEN_ARCO_PREVIEW_URL = 'https://arco.design';
+
+export const VBEN_VUETIFY_PREVIEW_URL = 'https://vuetifyjs.com';
+export const VBEN_QUASAR_PREVIEW_URL = 'https://quasar.dev/';

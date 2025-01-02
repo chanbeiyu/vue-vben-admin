@@ -21,6 +21,14 @@
       "path": "apps/web-naive",
     },
     {
+      "name": "@vben/web-quasar",
+      "path": "apps/web-quasar",
+    },
+    {
+      "name": "@vben/web-vuetify",
+      "path": "apps/web-vuetify",
+    },
+    {
       "name": "@vben/docs",
       "path": "docs",
     },

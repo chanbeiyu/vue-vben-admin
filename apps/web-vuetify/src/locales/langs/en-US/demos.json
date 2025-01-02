@@ -1,0 +1,17 @@
+{
+  "title": "Demos",
+  "vuetify": "Vuetify UI",
+  "table": "Table",
+  "form": "Form",
+  "vben": {
+    "title": "Project",
+    "about": "About",
+    "document": "Document",
+    "antdv": "Ant Design Vue Version",
+    "naive-ui": "Naive UI Version",
+    "element-plus": "Element Plus Version",
+    "arco": "Arco Design Version",
+    "vuetify": "Vuetify Version",
+    "quasar": "Quasar Version"
+  }
+}
